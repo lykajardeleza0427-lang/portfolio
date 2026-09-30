@@ -1,0 +1,1435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyka Sophia S. Jardeleza | Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Lyka Sophia<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Tools & Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#featured">Featured Works</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="hero-tag">Welcome To My Portfolio</span>
+                
+                <!-- HERO IMAGE PLACEHOLDER -->
+                <div class="hero-img-container">
+                    <img src="images/id-picture.png" alt="Lyka Sophia S. Jardeleza">
+                </div>
+
+                <!-- Name, Course, Address Bio Card -->
+                <div class="hero-bio-card">
+                    <h1 class="hero-name">Lyka Sophia S. Jardeleza</h1>
+                    <div class="hero-course">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>4th Year Computer Engineering Student</span>
+                    </div>
+                    <div class="hero-address">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Apitong St., New Pandan, Panabo City, Davao del Norte, Philippines, 8105</span>
+                    </div>
+                </div>
+
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary"><i class="fas fa-briefcase"></i> View Work</a>
+                    <a href="#contact" class="btn btn-outline"><i class="fas fa-envelope"></i> Get In Touch</a>
+                </div>
+            </div>
+            
+            <div class="hero-card">
+                <div class="profile-badge">
+                    <div class="profile-avatar">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="profile-info">
+                        <h3>Engineering & Design</h3>
+                        <p>Mapúa Malayan Colleges Mindanao</p>
+                    </div>
+                </div>
+                <div style="font-size: 0.95rem; color: var(--text-muted); line-height: 1.7;">
+                    I am a Computer Engineering student creating websites, graphics, and technical solutions with creativity, precision, and user-centered design.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About & Leadership Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Background & Experience</h2>
+                <p class="section-subtitle">Leadership roles and educational track record</p>
+            </div>
+
+            <div class="about-grid">
+                <!-- Academic / Personal Profile -->
+                <div class="about-box">
+                    <h3 style="font-size: 1.5rem; margin-bottom: 1rem; color: var(--text-main);">About Me</h3>
+                    <p style="color: var(--text-muted); margin-bottom: 1.5rem;">
+                        I am a fourth-year Computer Engineering student at Mapúa Malayan Colleges Mindanao with practical skills in web design, front-end development, and basic programming.
+                    </p>
+                    <p style="color: var(--text-muted);">
+                        I have leadership and work experience through ICPEP SE-MMCM, CEASO, and the SPES program. I am interested in graphic design and virtual assistance to support productivity and user-centered design.
+                    </p>
+                </div>
+
+                <!-- Experience Timeline -->
+                <div class="edu-box">
+                    <h3 style="font-size: 1.5rem; margin-bottom: 1rem; color: var(--text-main);">Experience & Leadership</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">2024 – 2025</div>
+                            <div class="timeline-title">President & Regional Representative</div>
+                            <div class="timeline-subtitle">ICPEP SE-MMCM & Regional Convention Participant</div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-date">2024 – 2025</div>
+                            <div class="timeline-title">Council Member</div>
+                            <div class="timeline-subtitle">CEASO (College of Engineering & Architecture Council of Presidents)</div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-date">2024</div>
+                            <div class="timeline-title">SPES Grantee & Audit Assistant</div>
+                            <div class="timeline-subtitle">City's Internal Audit Office & Prosecutor's Office</div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-date">2023 – 2024</div>
+                            <div class="timeline-title">Auditor & Creatives Committee</div>
+                            <div class="timeline-subtitle">ICPEP SE-MMCM</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills & Tools -->
+    <section id="skills" style="background: var(--bg-soft-rose);">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Utilized Tools & Technologies</h2>
+                <p class="section-subtitle">Software, engineering suites, and productivity platforms</p>
+            </div>
+
+            <div class="tools-filter">
+                <button class="filter-btn active" onclick="filterTools(event, 'all')">All Tools</button>
+                <button class="filter-btn" onclick="filterTools(event, 'dev')">Engineering & Code</button>
+                <button class="filter-btn" onclick="filterTools(event, 'design')">Design & Media</button>
+                <button class="filter-btn" onclick="filterTools(event, 'ai')">AI & Productivity</button>
+            </div>
+
+            <div class="tools-grid" id="toolsGrid">
+                <!-- Hardware / Dev -->
+                <div class="tool-card" data-cat="dev">
+                    <i class="fas fa-code"></i>
+                    <h4>VS Code</h4>
+                </div>
+                <div class="tool-card" data-cat="dev">
+                    <i class="fab fa-github"></i>
+                    <h4>GitHub</h4>
+                </div>
+                <div class="tool-card" data-cat="dev">
+                    <i class="fas fa-microchip"></i>
+                    <h4>Xilinx</h4>
+                </div>
+                <div class="tool-card" data-cat="dev">
+                    <i class="fas fa-project-diagram"></i>
+                    <h4>Quartus Prime</h4>
+                </div>
+                <div class="tool-card" data-cat="dev">
+                    <i class="fas fa-bolt"></i>
+                    <h4>Tinkercad</h4>
+                </div>
+                <div class="tool-card" data-cat="dev">
+                    <i class="fas fa-network-wired"></i>
+                    <h4>Packet Tracer</h4>
+                </div>
+
+                <!-- Design -->
+                <div class="tool-card" data-cat="design">
+                    <i class="fas fa-palette"></i>
+                    <h4>Canva</h4>
+                </div>
+                <div class="tool-card" data-cat="design">
+                    <i class="fas fa-video"></i>
+                    <h4>CapCut</h4>
+                </div>
+
+                <!-- AI / Office -->
+                <div class="tool-card" data-cat="ai">
+                    <i class="fas fa-robot"></i>
+                    <h4>ChatGPT</h4>
+                </div>
+                <div class="tool-card" data-cat="ai">
+                    <i class="fas fa-brain"></i>
+                    <h4>DeepSeek</h4>
+                </div>
+                <div class="tool-card" data-cat="ai">
+                    <i class="fas fa-star gemini-icon"></i>
+                    <h4>Gemini</h4>
+                </div>
+                <div class="tool-card" data-cat="ai">
+                    <i class="fas fa-spell-check"></i>
+                    <h4>Grammarly</h4>
+                </div>
+                <div class="tool-card" data-cat="ai">
+                    <i class="fas fa-sticky-note"></i>
+                    <h4>Notion</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section (Clickable Cards) -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Sample Works</h2>
+                <p class="section-subtitle">Click any box below to open and view gallery</p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 Card -->
+                <div class="project-card" onclick="openModal('hardwareModal')">
+                    <div class="project-card-badge"><i class="fas fa-folder-open"></i> View Works</div>
+                    <div class="project-header">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <div class="project-body">
+                        <span class="project-category">Hardware Systems</span>
+                        <h3 class="project-title">Hardware & Digital Systems</h3>
+                        <p class="project-desc">
+                            Digital logic circuit design, FPGA programming, and micro-architecture implementations using Xilinx and Quartus Prime.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">Verilog</span>
+                            <span class="project-tag">FPGA</span>
+                            <span class="project-tag">KiCad</span>
+                        </div>
+                        <div class="click-hint">Click to open works <i class="fas fa-arrow-right"></i></div>
+                    </div>
+                </div>
+
+                <!-- Project 2 Card -->
+                <div class="project-card" onclick="openModal('webModal')">
+                    <div class="project-card-badge"><i class="fas fa-folder-open"></i> View Works</div>
+                    <div class="project-header">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="project-body">
+                        <span class="project-category">Web Development</span>
+                        <h3 class="project-title">Web Development Project</h3>
+                        <p class="project-desc">
+                            Modern front-end web applications built with clean semantic HTML, responsive CSS layouts, and interactive JavaScript features.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML5</span>
+                            <span class="project-tag">CSS3</span>
+                            <span class="project-tag">JavaScript</span>
+                        </div>
+                        <div class="click-hint">Click to open works <i class="fas fa-arrow-right"></i></div>
+                    </div>
+                </div>
+
+                <!-- Project 3 Card -->
+                <div class="project-card" onclick="openModal('designModal')">
+                    <div class="project-card-badge"><i class="fas fa-folder-open"></i> View Works</div>
+                    <div class="project-header">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <div class="project-body">
+                        <span class="project-category">Graphic Design</span>
+                        <h3 class="project-title">Graphic Design Projects</h3>
+                        <p class="project-desc">
+                            Event posters, social media banners, and publicity materials created for ICPEP SE-MMCM and campus engineering events.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">Canva</span>
+                            <span class="project-tag">UI/UX</span>
+                            <span class="project-tag">Branding</span>
+                        </div>
+                        <div class="click-hint">Click to open works <i class="fas fa-arrow-right"></i></div>
+                    </div>
+                </div>
+                
+                <!-- Project 4 Card -->
+                 <div class="project-card project-card-wide" onclick="openModal('additionalWorksModal')">
+                    <div class="project-card-badge">
+                        <i class="fas fa-folder-open"></i> View Works
+                    </div>
+
+                    <div class="project-header">
+                        <i class="fas fa-folder-plus"></i>
+                    </div>
+
+                    <div class="project-body">
+                        <span class="project-category">Additional Works</span>
+
+                        <h3 class="project-title">
+                            Project Documentations & Laboratories
+                        </h3>
+
+                        <p class="project-desc">
+                            Additional project documentation, technical reports, laboratory
+                            activities, and practical engineering outputs.
+                        </p>
+
+                        <div class="project-tags">
+                            <span class="project-tag">Documentation</span>
+                            <span class="project-tag">Laboratories</span>
+                            <span class="project-tag">Engineering</span>
+                        </div>
+
+                        <div class="click-hint">
+                            Click to open works <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- MODAL POPUPS FOR SAMPLE WORKS -->
+
+    <!-- Modal 1: Hardware & Digital Systems -->
+    <div class="modal-overlay" id="hardwareModal">
+        <div class="modal-container">
+            <div class="modal-header">
+                <div>
+                    <span class="project-category">Gallery</span>
+                    <h2 class="serif-font" style="font-size: 1.8rem;">Hardware & Digital Systems Works</h2>
+                </div>
+                <button class="modal-close-btn" onclick="closeModal('hardwareModal')"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="modal-body">
+                <p style="color: var(--text-muted); margin-bottom: 1.5rem;">Below are photos, schematics, and code implementations from hardware engineering projects.</p>
+
+                <div class="work-items-grid">
+                    <div class="work-item-card">
+
+                        <div class="work-item-info">
+                            <h4>FPGA Logic Gate Implementation</h4>
+                            <p>
+                                Digital logic circuit designed using Verilog HDL and deployed on FPGA hardware.
+                            </p>
+                        </div>
+
+                        <div class="work-item-images">
+
+                            <img src="images/fpga1.png"
+                                alt="FPGA Schematic 1"
+                                onclick="openImageViewer(this)">
+
+                            <img src="images/fpga2.png"
+                                alt="FPGA Schematic 2"
+                                onclick="openImageViewer(this)">
+
+                            <img src="images/fpga3.png"
+                                alt="FPGA Schematic 3"
+                                onclick="openImageViewer(this)">
+
+                            <img src="images/fpga4.png"
+                                alt="FPGA Schematic 4"
+                                onclick="openImageViewer(this)">
+
+                            <img src="images/fpga5.png"
+                                alt="FPGA Schematic 5"
+                                onclick="openImageViewer(this)">
+
+                            <img src="images/fpga6.png"
+                                alt="FPGA Schematic 6"
+                                onclick="openImageViewer(this)">
+
+                            <img src="images/fpga7.png"
+                                alt="FPGA Schematic 7"
+                                onclick="openImageViewer(this)">
+
+                            <img src="images/fpga8.png"
+                                alt="FPGA Schematic 8"
+                                onclick="openImageViewer(this)">
+
+                        </div>
+
+                    </div>
+                    
+
+                    <div class="work-item-card">
+                        <div class="work-item-info">
+                            <h4>PCB & Schematic Layout</h4>
+                            <p>
+                                Circuit diagram and printed circuit board layout created using KiCad software.
+                            </p>
+                        </div>
+
+                        <div class="work-item-images">
+
+                            <img src="images/pcb1.png"
+                                alt="PCB Schematic 1"
+                                onclick="openImageViewer(this)">
+
+                            <img src="images/pcb2.png"
+                                alt="PCB Schematic 2"
+                                onclick="openImageViewer(this)">
+
+                            <img src="images/pcb3.png"
+                                alt="PCB Schematic 3"
+                                onclick="openImageViewer(this)">
+                            
+                            <img src="images/pcb4.png"
+                                alt="PCB Schematic 4"
+                                onclick="openImageViewer(this)">
+
+                            <img src="images/pcb5.png"
+                                alt="PCB Schematic 5"
+                                onclick="openImageViewer(this)">
+
+                            <img src="images/pcb6.png"
+                                alt="PCB Schematic 6"
+                                onclick="openImageViewer(this)">
+
+                            <img src="images/pcb7.png"
+                                alt="PCB Schematic 7"
+                                onclick="openImageViewer(this)">
+
+                            <img src="images/pcb8.png"
+                                alt="PCB Schematic 8"
+                                onclick="openImageViewer(this)">
+
+                            <img src="images/pcb9.png"
+                                alt="PCB Schematic 9"
+                                onclick="openImageViewer(this)">
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2: Web Development Works -->
+    <div class="modal-overlay" id="webModal">
+        <div class="modal-container">
+            <div class="modal-header">
+                <div>
+                    <span class="project-category">Gallery</span>
+                    <h2 class="serif-font" style="font-size: 1.8rem;">Web Development Works</h2>
+                </div>
+                <button class="modal-close-btn" onclick="closeModal('webModal')"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="modal-body">
+                <p style="color: var(--text-muted); margin-bottom: 1.5rem;">Below are web applications, screenshots, and live previews of web development projects.</p>
+
+                <div class="work-items-grid">
+                    <div class="work-item-card">
+                        <div class="work-item-info">
+                            <h4>Interactive Web Portal</h4>
+                            <p>
+                                Responsive website UI designed with modern HTML5, CSS3, and JavaScript features.
+                            </p>
+                        </div>
+
+                        <div class="work-item-images">
+
+                            <img src="images/web1.png"
+                                alt="Interactive Web Portal 1"
+                                onclick="openImageViewer(this)">
+
+                            <img src="images/web2.png"
+                                alt="Interactive Web Portal 2"
+                                onclick="openImageViewer(this)">
+
+                            <img src="images/web3.png"
+                                alt="Interactive Web Portal 3"
+                                onclick="openImageViewer(this)">
+                            
+                            <img src="images/web4.jpg"
+                                alt="Interactive Web Portal 4"
+                                onclick="openImageViewer(this)">
+
+                            <img src="images/web5.jpg"
+                                alt="Interactive Web Portal 5"
+                                onclick="openImageViewer(this)">
+
+                            <img src="images/web6.jpg"
+                                alt="Interactive Web Portal 6"
+                                onclick="openImageViewer(this)">
+                            
+                            <img src="images/web7.jpg"
+                                alt="Interactive Web Portal 7"
+                                onclick="openImageViewer(this)">
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3: Graphic Design Works -->
+    <div class="modal-overlay" id="designModal">
+        <div class="modal-container">
+            <div class="modal-header">
+                <div>
+                    <span class="project-category">Gallery</span>
+                    <h2 class="serif-font" style="font-size: 1.8rem;">Graphic Design & Media Works</h2>
+                </div>
+                <button class="modal-close-btn" onclick="closeModal('designModal')"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="modal-body">
+                <p style="color: var(--text-muted); margin-bottom: 1.5rem;">Below are posters, banners, and media graphics created for campus organizations.</p>
+
+                <div class="work-items-grid">
+
+                    <div class="work-item-card">
+                        <div class="work-item-info">
+                            <h4>Social Media Banners</h4>
+                            <p>Branded graphic designs and social media assets created using Canva.</p>
+                        </div>
+
+                        <div class="work-item-images">
+
+                            <img src="images/graphics1.png"
+                                alt="Socia Media Banner 1"
+                                onclick="openImageViewer(this)">
+                            
+                             <img src="images/graphics2.png"
+                                alt="Socia Media Banner 2"
+                                onclick="openImageViewer(this)">
+                            
+                            <img src="images/graphics3.jpg"
+                                alt="Socia Media Banner 3"
+                                onclick="openImageViewer(this)">
+                            
+                             <img src="images/graphics4.jpg"
+                                alt="Socia Media Banner 4"
+                                onclick="openImageViewer(this)">
+
+                            <img src="images/graphics5.jpg"
+                                alt="Socia Media Banner 5"
+                                onclick="openImageViewer(this)">
+                            
+                             <img src="images/graphics6.jpg"
+                                alt="Socia Media Banner 6"
+                                onclick="openImageViewer(this)">
+                            
+                            <img src="images/graphics7.jpg"
+                                alt="Socia Media Banner 7"
+                                onclick="openImageViewer(this)">
+                            
+                             <img src="images/graphics8.jpg"
+                                alt="Socia Media Banner 8"
+                                onclick="openImageViewer(this)">
+                            
+                            <img src="images/graphics9.png"
+                                alt="Socia Media Banner 9"
+                                onclick="openImageViewer(this)">
+                            
+                             <img src="images/graphics10.png"
+                                alt="Socia Media Banner 10"
+                                onclick="openImageViewer(this)">
+                            
+                            <img src="images/graphics11.png"
+                                alt="Socia Media Banner 11"
+                                onclick="openImageViewer(this)">
+                            
+                             <img src="images/graphics12.png"
+                                alt="Socia Media Banner 12"
+                                onclick="openImageViewer(this)">
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 4: Additional Project Documentations -->
+    <div class="modal-overlay" id="additionalWorksModal">
+        <div class="modal-container modal-landscape">
+
+            <div class="modal-header">
+                <div>
+                    <span class="project-category">Additional Works</span>
+                    <h2 class="serif-font" style="font-size: 1.8rem;">
+                        Project Documentations & Laboratories
+                    </h2>
+                </div>
+
+                <button class="modal-close-btn" onclick="closeModal('additionalWorksModal')">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+
+            <div class="modal-body">
+
+                <p style="color: var(--text-muted); margin-bottom: 1.5rem;">
+                    Additional project documentations and laboratory activities completed
+                    throughout my Computer Engineering coursework.
+                </p>
+
+                <div class="additional-modal-grid">
+
+                    <!-- Project Documentations -->
+                    <div class="additional-modal-card">
+
+                        <div class="additional-modal-icon">
+                            <i class="fas fa-folder-open"></i>
+                        </div>
+
+                        <div class="additional-modal-content">
+                            <span class="project-category">Documentation</span>
+
+                            <h3>Project Documentations</h3>
+
+                            <p>
+                                Compilation of project reports, technical documentation,
+                                system designs, and other engineering project outputs.
+                            </p>
+
+                            <button class="modal-action-btn" onclick="openModal('documentsModal')">
+                                <i class="fas fa-folder"></i>
+                                View Documents
+                            </button>
+                        </div>
+
+                    </div>
+
+
+                    <!-- Laboratories -->
+                    <div class="additional-modal-card">
+
+                        <div class="additional-modal-icon">
+                            <i class="fas fa-flask"></i>
+                        </div>
+
+                        <div class="additional-modal-content">
+                            <span class="project-category">Laboratory</span>
+
+                            <h3>Laboratories</h3>
+
+                            <p>
+                                Collection of laboratory activities, exercises, experiments,
+                                and practical applications completed during my coursework.
+                            </p>
+
+                            <button class="modal-action-btn" onclick="openPDFGallery('laboratoriesGallery')">
+                                <i class="fas fa-flask"></i>
+                                View Laboratories
+                            </button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- PDF Documents Modal -->
+<div class="modal-overlay" id="documentsModal">
+
+    <div class="modal-container documents-modal">
+
+        <div class="modal-header">
+            <div>
+                <span class="project-category">Documentation</span>
+
+                <h2 class="serif-font" style="font-size: 1.8rem;">
+                    Project Documents
+                </h2>
+            </div>
+
+            <button class="modal-close-btn" onclick="closeModal('documentsModal')">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+
+        <div class="modal-body">
+
+            <p style="color: var(--text-muted); margin-bottom: 1.5rem;">
+                Select a document below to open and view the PDF.
+            </p>
+
+            <div class="pdf-list">
+
+                <!-- PDF 1 -->
+                <a href="pdf/pdf1.pdf"
+                   target="_blank"
+                   class="pdf-item">
+
+                    <i class="fas fa-file-pdf"></i>
+
+                    <div>
+                        <strong>AI-Based Detection of Jaywalking Violations in Davao City</strong>
+                        <span>PDF Document</span>
+                    </div>
+
+                    <i class="fas fa-arrow-up-right-from-square pdf-open-icon"></i>
+
+                </a>
+
+                <!-- PDF 2 -->
+                <a href="pdf/pdf2.pdf"
+                   target="_blank"
+                   class="pdf-item">
+
+                    <i class="fas fa-file-pdf"></i>
+
+                    <div>
+                        <strong>SnakeDash: Dash Through The Challenge, Eating Grades To Stay Ahead</strong>
+                        <span>PDF Document</span>
+                    </div>
+
+                    <i class="fas fa-arrow-up-right-from-square pdf-open-icon"></i>
+
+                </a>
+
+                <!-- PDF 3 -->
+                <a href="pdf/pdf3.pdf"
+                   target="_blank"
+                   class="pdf-item">
+
+                    <i class="fas fa-file-pdf"></i>
+
+                    <div>
+                        <strong>WeaveStream: Connecting Matigsalug Artisans to the Digital Marketplace</strong>
+                        <span>PDF Document</span>
+                    </div>
+
+                    <i class="fas fa-arrow-up-right-from-square pdf-open-icon"></i>
+
+                </a>
+
+                <!-- PDF 4 -->
+                <a href="pdf/pdf4.pdf"
+                   target="_blank"
+                   class="pdf-item">
+
+                    <i class="fas fa-file-pdf"></i>
+
+                    <div>
+                        <strong>Vision-Based Hand Gesture Recognition for Cursor Control</strong>
+                        <span>PDF Document</span>
+                    </div>
+
+                    <i class="fas fa-arrow-up-right-from-square pdf-open-icon"></i>
+
+                </a>
+
+                <!-- PDF 5 -->
+                <a href="pdf/pdf5.pdf"
+                   target="_blank"
+                   class="pdf-item">
+
+                    <i class="fas fa-file-pdf"></i>
+
+                    <div>
+                        <strong>Algorithm-Based Disaster Evacuation Route Visualizer for Barangays in Davao City</strong>
+                        <span>PDF Document</span>
+                    </div>
+
+                    <i class="fas fa-arrow-up-right-from-square pdf-open-icon"></i>
+
+                </a>
+
+                <!-- PDF 6 -->
+                <a href="pdf/pdf6.pdf"
+                   target="_blank"
+                   class="pdf-item">
+
+                    <i class="fas fa-file-pdf"></i>
+
+                    <div>
+                        <strong>Updating National Standards for Drinking-Water: A Philippine Experience</strong>
+                        <span>PDF Document</span>
+                    </div>
+
+                    <i class="fas fa-arrow-up-right-from-square pdf-open-icon"></i>
+
+                </a>
+
+                <!-- PDF 7 -->
+                <a href="pdf/pdf7.pdf"
+                   target="_blank"
+                   class="pdf-item">
+
+                    <i class="fas fa-file-pdf"></i>
+
+                    <div>
+                        <strong>“Job or Jab?”: Detecting Fake Job Postings Using NLP</strong>
+                        <span>PDF Document</span>
+                    </div>
+
+                    <i class="fas fa-arrow-up-right-from-square pdf-open-icon"></i>
+
+                </a>
+
+                <!-- PDF 8 -->
+                <a href="pdf/pdf8.pdf"
+                   target="_blank"
+                   class="pdf-item">
+
+                    <i class="fas fa-file-pdf"></i>
+
+                    <div>
+                        <strong>Single-Cycle RISC-V SAP (Simple-As-Possible) Computer Design And Development
+</strong>
+                        <span>PDF Document</span>
+                    </div>
+
+                    <i class="fas fa-arrow-up-right-from-square pdf-open-icon"></i>
+
+                </a>
+
+                <!-- PDF 9 -->
+                <a href="pdf/pdf9.pdf"
+                   target="_blank"
+                   class="pdf-item">
+
+                    <i class="fas fa-file-pdf"></i>
+
+                    <div>
+                        <strong>Beyond The Headlines: DistilBERT-Driven Linguistic Pattern Analysis for Deception Detection
+</strong>
+                        <span>PDF Document</span>
+                    </div>
+
+                    <i class="fas fa-arrow-up-right-from-square pdf-open-icon"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- Laboratories Gallery -->
+<div class="modal-overlay" id="laboratoriesGallery">
+    <div class="modal-container pdf-gallery-modal">
+
+        <div class="modal-header">
+            <div>
+                <span class="project-category">Laboratory</span>
+                <h2 class="serif-font" style="font-size: 1.8rem;">
+                    Laboratories
+                </h2>
+            </div>
+
+            <button class="modal-close-btn" onclick="closePDFGallery('laboratoriesGallery')">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+
+        <div class="modal-body">
+
+            <p class="pdf-gallery-description">
+                Select a laboratory topic to view its PDF activities and outputs.
+            </p>
+
+            <div class="laboratory-topics">
+
+                <!-- Topic 1 -->
+                <div class="laboratory-topic">
+
+                    <div class="laboratory-topic-header">
+                        <div class="laboratory-topic-icon">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+
+                        <div>
+                            <span class="project-category">Laboratory Topic</span>
+                            <h3>Digital Signals Processing</h3>
+                        </div>
+                    </div>
+
+                    <div class="topic-pdf-list">
+
+                        <a href="pdf/dsp_lab1.pdf"
+                           target="_blank"
+                           class="topic-pdf-item">
+
+                            <i class="fas fa-file-pdf"></i>
+
+                            <div>
+                                <h4>Laboratory 1</h4>
+                                <p>Introduction to MATLAB</p>
+                            </div>
+
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                        <a href="pdf/dsp_lab2.pdf"
+                           target="_blank"
+                           class="topic-pdf-item">
+
+                            <i class="fas fa-file-pdf"></i>
+
+                            <div>
+                                <h4>Laboratory 2</h4>
+                                <p>Signals</p>
+                            </div>
+
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                        <a href="pdf/dsp_lab3.pdf"
+                           target="_blank"
+                           class="topic-pdf-item">
+
+                            <i class="fas fa-file-pdf"></i>
+
+                            <div>
+                                <h4>Laboratory 3 </h4>
+                                <p>Linearity and Time-Invariance</p>
+                            </div>
+
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                        <a href="pdf/dsp_lab4.pdf"
+                           target="_blank"
+                           class="topic-pdf-item">
+
+                            <i class="fas fa-file-pdf"></i>
+
+                            <div>
+                                <h4>Laboratory 4</h4>
+                                <p>Linearity and Time-Invariance</p>
+                            </div>
+
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                        <a href="pdf/dsp_lab5.pdf"
+                           target="_blank"
+                           class="topic-pdf-item">
+
+                            <i class="fas fa-file-pdf"></i>
+
+                            <div>
+                                <h4>Laboratory 5</h4>
+                                <p>Convolution</p>
+                            </div>
+
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                        <a href="pdf/dsp_lab6.pdf"
+                           target="_blank"
+                           class="topic-pdf-item">
+
+                            <i class="fas fa-file-pdf"></i>
+
+                            <div>
+                                <h4>Laboratory 6</h4>
+                                <p>z-Transform</p>
+                            </div>
+
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                        <a href="pdf/dsp_lab7.pdf"
+                           target="_blank"
+                           class="topic-pdf-item">
+
+                            <i class="fas fa-file-pdf"></i>
+
+                            <div>
+                                <h4>Laboratory 7</h4>
+                                <p>Image Processing (MATLAB Onramp Course)</p>
+                            </div>
+
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+
+                <!-- Topic 2 -->
+                <div class="laboratory-topic">
+
+                    <div class="laboratory-topic-header">
+                        <div class="laboratory-topic-icon">
+                            <i class="fas fa-microprocessor"></i>
+                        </div>
+
+                        <div>
+                            <span class="project-category">Laboratory Topic</span>
+                            <h3>Computer Architecture and Organization</h3>
+                        </div>
+                    </div>
+
+                    <div class="topic-pdf-list">
+
+                        <a href="pdf/comarch_lab1.pdf"
+                           target="_blank"
+                           class="topic-pdf-item">
+
+                            <i class="fas fa-file-pdf"></i>
+
+                            <div>
+                                <h4>Laboratory 1</h4>
+                                <p>Familiarization of SAP-1 Components</p>
+                            </div>
+
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                        <a href="pdf/comarch_lab2_0.pdf"
+                           target="_blank"
+                           class="topic-pdf-item">
+
+                            <i class="fas fa-file-pdf"></i>
+
+                            <div>
+                                <h4>Laboratory 2</h4>
+                                <p>SAP-1 Architecture: Registers</p>
+                            </div>
+
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                        <a href="pdf/comarch_lab2_1.pdf"
+                           target="_blank"
+                           class="topic-pdf-item">
+
+                            <i class="fas fa-file-pdf"></i>
+
+                            <div>
+                                <h4>Laboratory 2.1</h4>
+                                <p>SAP-1 Architecture: Registers 2</p>
+                            </div>
+
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                        <a href="pdf/comarch_lab2_2.pdf"
+                           target="_blank"
+                           class="topic-pdf-item">
+
+                            <i class="fas fa-file-pdf"></i>
+
+                            <div>
+                                <h4>Laboratory 2.2</h4>
+                                <p>SAP-1 Architecture: Register Files</p>
+                            </div>
+
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+
+                <!-- Topic 3 -->
+                <div class="laboratory-topic">
+
+                    <div class="laboratory-topic-header">
+                        <div class="laboratory-topic-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+
+                        <div>
+                            <span class="project-category">Laboratory Topic</span>
+                            <h3>Applied Data Science Laboratory</h3>
+                        </div>
+                    </div>
+
+                    <div class="topic-pdf-list">
+
+                        <a href="pdf/dsl_lab1.pdf"
+                           target="_blank"
+                           class="topic-pdf-item">
+
+                            <i class="fas fa-file-pdf"></i>
+
+                            <div>
+                                <h4>Laboratory 1</h4>
+                                <p>Descriptive Statistics</p>
+                            </div>
+
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                        <a href="pdf/dsl_lab2.pdf"
+                           target="_blank"
+                           class="topic-pdf-item">
+
+                            <i class="fas fa-file-pdf"></i>
+
+                            <div>
+                                <h4>Laboratory 2</h4>
+                                <p>Exploring and Analyzing Public Data Sets</p>
+                            </div>
+
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                        <a href="pdf/dsl_lab3.pdf"
+                           target="_blank"
+                           class="topic-pdf-item">
+
+                            <i class="fas fa-file-pdf"></i>
+
+                            <div>
+                                <h4>Laboratory 3</h4>
+                                <p>Simple Linear Regression Using JASP</p>
+                            </div>
+
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                        <a href="pdf/dsl_lab4.pdf"
+                           target="_blank"
+                           class="topic-pdf-item">
+
+                            <i class="fas fa-file-pdf"></i>
+
+                            <div>
+                                <h4>Laboratory 4</h4>
+                                <p>Simple Linear Regression Using JASP</p>
+                            </div>
+
+                            <a href="pdf/dsl_lab5.pdf"
+                           target="_blank"
+                           class="topic-pdf-item">
+
+                            <i class="fas fa-file-pdf"></i>
+
+                            <div>
+                                <h4>Laboratory 5</h4>
+                                <p>Predictive Modeling Using Scikit-learn and Pandas</p>
+                            </div>
+
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                        <a href="pdf/dsl_lab8.pdf"
+                           target="_blank"
+                           class="topic-pdf-item">
+
+                            <i class="fas fa-file-pdf"></i>
+
+                            <div>
+                                <h4>Laboratory 8</h4>
+                                <p>Neural Nets</p>
+                            </div>
+
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <!-- Topic 4 -->
+                <div class="laboratory-topic">
+
+                    <div class="laboratory-topic-header">
+                        <div class="laboratory-topic-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+
+                        <div>
+                            <span class="project-category">Laboratory Topic</span>
+                            <h3>Embedded Systems</h3>
+                        </div>
+                    </div>
+
+                    <div class="topic-pdf-list">
+
+                        <a href="pdf/embedded_lab1.pdf"
+                           target="_blank"
+                           class="topic-pdf-item">
+
+                            <i class="fas fa-file-pdf"></i>
+
+                            <div>
+                                <h4>Laboratory 1</h4>
+                                <p>Testbench Wave Simulation Using ModelSim</p>
+                            </div>
+
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                        <a href="pdf/embedded_lab2.pdf"
+                           target="_blank"
+                           class="topic-pdf-item">
+
+                            <i class="fas fa-file-pdf"></i>
+
+                            <div>
+                                <h4>Laboratory 2</h4>
+                                <p>Latch, Clock, Flip-Flop, and Counter with FPGA</p>
+                            </div>
+
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                        <a href="pdf/embedded_lab3.pdf"
+                           target="_blank"
+                           class="topic-pdf-item">
+
+                            <i class="fas fa-file-pdf"></i>
+
+                            <div>
+                                <h4>Laboratory 3</h4>
+                                <p>16-bit BCD Decoder</p>
+                            </div>
+
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                        <a href="pdf/embedded_lab4.pdf"
+                           target="_blank"
+                           class="topic-pdf-item">
+
+                            <i class="fas fa-file-pdf"></i>
+
+                            <div>
+                                <h4>Laboratory 4</h4>
+                                <p>Arm Single Cycle Simulation</p>
+                            </div>
+
+                            <a href="pdf/embedded_lab5.pdf"
+                           target="_blank"
+                           class="topic-pdf-item">
+
+                            <i class="fas fa-file-pdf"></i>
+
+                            <div>
+                                <h4>Laboratory 5</h4>
+                                <p>Introduction to Computer Vision Techniques</p>
+                            </div>
+
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                        <a href="pdf/embedded_lab6.pdf"
+                           target="_blank"
+                           class="topic-pdf-item">
+
+                            <i class="fas fa-file-pdf"></i>
+
+                            <div>
+                                <h4>Laboratory 6</h4>
+                                <p>Building Deep Learning Models</p>
+                            </div>
+
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <!-- Topic 5 -->
+                <div class="laboratory-topic">
+
+                    <div class="laboratory-topic-header">
+                        <div class="laboratory-topic-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+
+                        <div>
+                            <span class="project-category">Laboratory Topic</span>
+                            <h3>Special Topics in Computer Engineering</h3>
+                        </div>
+                    </div>
+
+                    <div class="topic-pdf-list">
+
+                        <a href="pdf/special_lab1.pdf"
+                           target="_blank"
+                           class="topic-pdf-item">
+
+                            <i class="fas fa-file-pdf"></i>
+
+                            <div>
+                                <h4>Laboratory 1</h4>
+                                <p>Introduction to Python with Numpy and Matplotlib</p>
+                            </div>
+
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                        <a href="pdf/special_lab2.pdf"
+                           target="_blank"
+                           class="topic-pdf-item">
+
+                            <i class="fas fa-file-pdf"></i>
+
+                            <div>
+                                <h4>Laboratory 2</h4>
+                                <p>Datasets with Pandas and Decision Trees with Scikit-learn</p>
+                            </div>
+
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                        <a href="pdf/special_lab3.pdf"
+                           target="_blank"
+                           class="topic-pdf-item">
+
+                            <i class="fas fa-file-pdf"></i>
+
+                            <div>
+                                <h4>Laboratory 3</h4>
+                                <p>Linear Models and Linear Regression</p>
+                            </div>
+
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+    <!-- Replacement Section: Featured / Additional Works Showcase -->
+    <section id="featured" style="background: var(--bg-soft-rose);">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Highlights</h2>
+                <p class="section-subtitle">Special accomplishments, certifications, and technical milestones</p>
+            </div>
+
+            <div class="featured-grid">
+                <div class="featured-card">
+                    <div class="featured-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Leadership & Service</h3>
+                    <p>Led ICPEP SE-MMCM as President, managing regional conventions, student workshops, and organizational operations.</p>
+                </div>
+
+                <div class="featured-card">
+                    <div class="featured-icon">
+                        <i class="fas fa-laptop-house"></i>
+                    </div>
+                    <h3>Virtual Assistance & Support</h3>
+                    <p>Skilled in administrative management, content creation, workflow optimization, and digital organization using Notion and AI tools.</p>
+                </div>
+
+                <div class="featured-card">
+                    <div class="featured-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3>UI/UX & Media Design</h3>
+                    <p>Focused on creating modern, visually appealing user interfaces and branding materials for educational and corporate needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="contact-box">
+                <h2 style="font-size: 2rem; color: var(--text-main); margin-bottom: 0.5rem;">Let's Connect</h2>
+                <p style="color: var(--text-muted);">Feel free to reach out for collaborations or opportunities.</p>
+
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <h4>Email</h4>
+                        <p>lykajardeleza0427@gmail.com</p>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <h4>Phone</h4>
+                        <p>(+63) 910 154 7039</p>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h4>Location</h4>
+                        <p>Panabo City, Davao del Norte</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Lyka Sophia S. Jardeleza. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Script File -->
+    <script src="js/script.js"></script>
+
+    <!-- IMAGE VIEWER -->
+<div class="image-viewer" id="imageViewer">
+
+    <button class="image-viewer-close" onclick="closeImageViewer()">
+        &times;
+    </button>
+
+    <img id="viewerImage" src="" alt="Expanded project image">
+
+    <div class="image-viewer-controls">
+
+        <button onclick="zoomOut()" title="Zoom Out">
+            −
+        </button>
+
+        <button onclick="resetZoom()" title="Reset Zoom">
+            ⟳
+        </button>
+
+        <button onclick="zoomIn()" title="Zoom In">
+            +
+        </button>
+
+    </div>
+
+</div>
+
+</body>
+</html>
